@@ -1,0 +1,32 @@
+body {
+    font-size: 14px;
+    color: navy;
+    
+    background-color: #ccc;
+    margin: 20px;
+    padding: 40px;
+    
+}
+
+p {
+    color: rgb(136, 0, 255);
+    font-family: "Times New Roman", serif;
+}
+
+a {
+    color: blue;
+}
+
+h1 {
+    font-family: "Times New Roman", serif;
+}
+h2 {
+    font-size: 1.5em;
+    padding: 20px;
+    text-align: center;
+    
+}
+.studious-wicky {
+    margin-top: 60px; /* Adjust this value as needed */
+    text-align: center;
+}
