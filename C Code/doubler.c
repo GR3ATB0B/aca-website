@@ -1,14 +1,8 @@
 #include <stdio.h>
 
-int main(void) {
-    
-    int i = 1;
-    printf("%d\n", i);
+int i = 0;
 
-    while (i < 1000) {
-
-        i = i * 2; 
-
-        printf("%d\n", i);
-}
-}
+int main() {
+    while (i < 1000 )
+    i + i = i;
+}./
