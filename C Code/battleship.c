@@ -1,16 +1,4 @@
-/*
- * Simple 2‑player Battleship game for the terminal.
- *
- * Features:
- * - 2 players sharing one keyboard.
- * - Small square boards for simplicity.
- * - Each player places 3 single‑cell ships.
- * - Players take turns guessing coordinates.
- * - Board is printed as a 2D array each turn.
- *
- * Compile with:
- *   gcc -Wall -Wextra -std=c11 -o battleship battleship.c
- */
+
 
 #include <stdio.h>
 
