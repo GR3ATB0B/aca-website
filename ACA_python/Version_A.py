@@ -47,6 +47,6 @@ print(f"Is the score top tier? {is_top_teir}")
 
 #10
 item_price = 49.951
-print(f"the rounded price is: {round(item_price, 2)}")
+print(f"the rounded price is: {round(item_price, 1)}")
 
     
