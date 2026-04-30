@@ -386,12 +386,12 @@ def main():
     for r in results:
         print_result(r)
 
-    # GRAPH: generate and save figure
+    # GRAPH: generate and save figure next to this script
     fig = graph_results(results)
     if fig:
-        out_path = "/mnt/user-data/outputs/kinematics_graph.png"
-        fig.savefig(out_path, dpi=150, bbox_inches="tight",
-                    facecolor=fig.get_facecolor())
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        out_path = os.path.join(script_dir, "kinematics_graph.png")
+        fig.savefig(out_path, dpi=150, bbox_inches="tight")
         plt.close(fig)
         print(f"\n  Graph saved to: {out_path}")
 

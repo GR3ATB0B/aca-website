@@ -1,14 +1,6 @@
-# Password Strength Checker
-# Checks user-entered passwords against strength criteria
-# and outputs a rating for each one.
 
 import string
 
-# -------------------------
-# PROCEDURE DEFINITION
-# Parameters: passwords (list), min_length (int)
-# Uses sequencing, selection, and iteration
-# -------------------------
 def check_strength(passwords, min_length):
     results = []
 
@@ -55,12 +47,10 @@ def check_strength(passwords, min_length):
     return results
 
 
-# -------------------------
-# USER INPUT
-# -------------------------
-print("=" * 45)
+
+print("/" * 45)
 print("       PASSWORD STRENGTH CHECKER")
-print("=" * 45)
+print("/" * 45)
 
 # Get minimum length preference from user
 while True:
